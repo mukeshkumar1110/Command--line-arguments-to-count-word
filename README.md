@@ -24,8 +24,22 @@ Sum the number of words in each line.
 Display the total words in the file.
 
 ## PROGRAM:
+```python
+#Developed by: MUKESH KUMAR S
+#Register no: 212223240099
+import sys
+fp=open(sys.argv[1])
+wordcount=0
+for i in fp:
+    words=i.split()
+    wordcount+=len(words)
+print("Total no of words in file is",wordcount)
+fp.close()
+```
 
 ### OUTPUT:
+![alt text](<Screenshot 2024-05-12 150742.png>)
+
 
 
 
